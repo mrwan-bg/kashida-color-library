@@ -1,0 +1,936 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kashida Color Library 2.6.1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: kashida-color-library\n"
+
+msgid "Color Groups"
+msgstr ""
+
+msgctxt "kcs_menu_name"
+msgid "Kashida Color Library"
+msgstr ""
+
+msgid "Color Group"
+msgstr ""
+
+msgid "Add Group"
+msgstr ""
+
+msgid "Add New Group"
+msgstr ""
+
+msgid "Edit Group"
+msgstr ""
+
+msgid "New Group"
+msgstr ""
+
+msgid "View Group"
+msgstr ""
+
+msgid "Search Groups"
+msgstr ""
+
+msgid "No groups found"
+msgstr ""
+
+msgid "Group Code"
+msgstr ""
+
+msgid "Shortcode"
+msgstr ""
+
+msgid "View"
+msgstr ""
+
+msgid "Copy"
+msgstr ""
+
+msgid "Copied"
+msgstr ""
+
+msgid "Color Group Preview"
+msgstr ""
+
+msgid "You are not allowed to view this page."
+msgstr ""
+
+msgid "Group not found."
+msgstr ""
+
+msgid "You are not allowed to view this group."
+msgstr ""
+
+msgid "View Group: "
+msgstr ""
+
+msgid "Preview the colors as they will appear on the website."
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "There are no colors in this group yet."
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Kashida Color Library — Settings"
+msgstr ""
+
+msgid "No operational settings are currently required. Use the Help page to manage color groups, imports, and the Shortcode."
+msgstr ""
+
+msgid "Open Help"
+msgstr ""
+
+msgid "Plugin Information"
+msgstr ""
+
+msgid "Kashida Color Library"
+msgstr ""
+
+msgid "Plugin Name"
+msgstr ""
+
+msgid "Version"
+msgstr ""
+
+msgid "Author"
+msgstr ""
+
+msgid "Website"
+msgstr ""
+
+msgid "Kashida Color Library Help"
+msgstr ""
+
+msgid "Guide to managing color groups, entering and importing color data, defining a custom attribute for each group, preparing the color table, and using the Shortcode to display colors on your website."
+msgstr ""
+
+msgid "1. Create a Group"
+msgstr ""
+
+msgid "Open Kashida Color Library → Add Group."
+msgstr ""
+
+msgid "Enter the group name and optionally add a description and featured image."
+msgstr ""
+
+msgid "Save the group; a fixed code such as KCS-0001 will be generated automatically."
+msgstr ""
+
+msgid "The group code does not depend on the group name and does not change when the name changes. It is used in the Shortcode and URL."
+msgstr ""
+
+msgid "2. Add Colors Manually"
+msgstr ""
+
+msgid "Open the required group."
+msgstr ""
+
+msgid "In the Color Group box, click Add New Color."
+msgstr ""
+
+msgid "Enter the color name, code, HEX value, optional attribute value, and sample image if needed."
+msgstr ""
+
+msgid "Save the group."
+msgstr ""
+
+msgid "3. Import Colors and Supporting Files"
+msgstr ""
+
+msgid "Colors can be imported from CSV or XLSX, and ZIP can be used when sample images need to be included with the data file."
+msgstr ""
+
+msgid "Column"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Example"
+msgstr ""
+
+msgid "Attribute values"
+msgstr ""
+
+msgid "When using ZIP, place a CSV or XLSX file inside the archive. PNG/JPG/WebP/GIF images can be placed at the same level. The plugin matches image names to the color name or color code."
+msgstr ""
+
+msgid "Download CSV Template"
+msgstr ""
+
+msgid "Download XLSX Template"
+msgstr ""
+
+msgid "Download ZIP Template with Images"
+msgstr ""
+
+msgid "4. Prepare the Color Table"
+msgstr ""
+
+msgid "The first row must contain column headers, and each following row represents one color. Do not merge cells or add extra headings above the first row."
+msgstr ""
+
+msgid "In CSV, use commas as the column separator. In XLSX, the first worksheet is used. HEX values must be valid, and sample_image may be left empty when no image is available."
+msgstr ""
+
+msgid "5. Shortcode"
+msgstr ""
+
+msgid "Copy the Shortcode from the Shortcode column in the groups table or from the group settings, then paste it into a page or post."
+msgstr ""
+
+msgid "Shortcode Options"
+msgstr ""
+
+msgid "Attribute"
+msgstr ""
+
+msgid "Default Value"
+msgstr ""
+
+msgid "Function"
+msgstr ""
+
+msgid "6. Find a Nearby Color"
+msgstr ""
+
+msgid "When search is enabled, the color wheel is displayed. Choose a color from the wheel and click Find Nearest. The plugin displays the nearest colors in the same color family, ordered by proximity."
+msgstr ""
+
+msgid "The color-wheel search is independent of text search. Clear the selected color to return to all results."
+msgstr ""
+
+msgid "7. Display Features"
+msgstr ""
+
+msgid "Search by name, code, or HEX."
+msgstr ""
+
+msgid "Filter by the group attribute when an attribute is configured."
+msgstr ""
+
+msgid "Similar colors."
+msgstr ""
+
+msgid "Select multiple colors, then copy, print, or share them."
+msgstr ""
+
+msgid "8. Translation with Polylang"
+msgstr ""
+
+msgid "All interface strings are prepared for translation with Polylang. You can translate each label, button, field, and message from Languages → String translations."
+msgstr ""
+
+msgid "9. Common Errors"
+msgstr ""
+
+msgid "Group not found: make sure you are using the correct group code, such as KCS-0001."
+msgstr ""
+
+msgid "The import contains no valid colors: check name and hex in the file."
+msgstr ""
+
+msgid "ZIP images do not appear: make sure the image filename matches the color name or code and uses a supported extension."
+msgstr ""
+
+msgid "Do not use the group name in the Shortcode; use the group code."
+msgstr ""
+
+msgid "Activate Group"
+msgstr ""
+
+msgid "This code is fixed and does not change when the group name changes."
+msgstr ""
+
+msgid "CSV or XLSX. Columns: name, code, hex, attribute, attribute_label, sample_image."
+msgstr ""
+
+msgid "sample_image: optional image URL. A filename can also be matched when importing ZIP."
+msgstr ""
+
+msgid "Choose CSV, XLSX, or ZIP"
+msgstr ""
+
+msgid "Import Colors"
+msgstr ""
+
+msgid "Importing…"
+msgstr ""
+
+msgid "Imported"
+msgstr ""
+
+msgid "colors. The page will refresh…"
+msgstr ""
+
+msgid "Import failed"
+msgstr ""
+
+msgid "Color"
+msgstr ""
+
+msgid "Color Name"
+msgstr ""
+
+msgid "Color Code"
+msgstr ""
+
+msgid "Attribute Name"
+msgstr ""
+
+msgid "Attribute Options"
+msgstr ""
+
+msgid "Define the values you want to offer when entering colors. You can add or remove options at any time."
+msgstr ""
+
+msgid "For example, use Surface with Gloss, Satin, and Matte; Material with Cotton, Linen, and Silk; or Texture with Smooth and Brushed. The feature is not limited to paint or finishing types."
+msgstr ""
+
+msgid "No Attribute"
+msgstr ""
+
+msgid "Add Option"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "e.g. Surface, Material, Texture"
+msgstr ""
+
+msgid "e.g. Matte, Gloss, Cotton"
+msgstr ""
+
+msgid "Attribute Label"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Upload Sample Image"
+msgstr ""
+
+msgid "Remove Image"
+msgstr ""
+
+msgid "Choose Sample Image"
+msgstr ""
+
+msgid "Select"
+msgstr ""
+
+msgid "Add New Color"
+msgstr ""
+
+msgid "Color Group Colors"
+msgstr ""
+
+msgid "Group Settings"
+msgstr ""
+
+msgid "10. Security and Import Limits"
+msgstr ""
+
+msgid "Imports are secured with permission and file validation. Current limits: CSV up to 5MB, XLSX up to 10MB, ZIP up to 25MB, up to 10,000 colors, image validation, unsafe ZIP path protection, and abnormal compression-ratio protection."
+msgstr ""
+
+msgid "Import requires permission to edit the group itself."
+msgstr ""
+
+msgid "Unsupported extensions and files whose content does not match their extension are rejected."
+msgstr ""
+
+msgid "ZIP files are checked for unsafe paths, oversized files, and abnormal compression ratios."
+msgstr ""
+
+msgid "Image files are validated to ensure they are real supported images."
+msgstr ""
+
+msgid "Color data is sanitized and validated before saving."
+msgstr ""
+
+msgid "You are not allowed to perform this import."
+msgstr ""
+
+msgid "You are not allowed to edit this group."
+msgstr ""
+
+msgid "No file was selected."
+msgstr ""
+
+msgid "The import file is invalid."
+msgstr ""
+
+msgid "The import file upload failed."
+msgstr ""
+
+msgid "The import file source is invalid."
+msgstr ""
+
+msgid "Only CSV, XLSX, or ZIP files are supported."
+msgstr ""
+
+msgid "The import file exceeds the allowed size."
+msgstr ""
+
+msgid "The file type does not match its extension."
+msgstr ""
+
+msgid "ZipArchive is not available on the server."
+msgstr ""
+
+msgid "The ZIP file could not be opened."
+msgstr ""
+
+msgid "The ZIP contains an unsafe file path."
+msgstr ""
+
+msgid "The uncompressed ZIP size exceeds the allowed limit."
+msgstr ""
+
+msgid "The ZIP was rejected because of an abnormal compression ratio."
+msgstr ""
+
+msgid "The number of files inside the ZIP exceeds the allowed limit."
+msgstr ""
+
+msgid "A file inside the ZIP exceeds the allowed size."
+msgstr ""
+
+msgid "The table must contain at least the name and hex columns."
+msgstr ""
+
+msgid "The number of rows exceeds the allowed limit."
+msgstr ""
+
+msgid "The number of columns exceeds the allowed limit."
+msgstr ""
+
+msgid "A cell is larger than the allowed size."
+msgstr ""
+
+msgid "The number of colors exceeds the allowed limit."
+msgstr ""
+
+msgid "The number of images inside the ZIP exceeds the allowed limit."
+msgstr ""
+
+msgid "A file inside the ZIP is not a supported image."
+msgstr ""
+
+msgid "An image inside the ZIP exceeds the allowed size."
+msgstr ""
+
+msgid "A ZIP image could not be read."
+msgstr ""
+
+msgid "The image type could not be verified."
+msgstr ""
+
+msgid "The first worksheet could not be found."
+msgstr ""
+
+msgid "The XLSX worksheet exceeds the allowed size."
+msgstr ""
+
+msgid "The number of strings inside the XLSX exceeds the allowed limit."
+msgstr ""
+
+msgid "The XLSX file could not be read."
+msgstr ""
+
+msgid "The data file could not be safely extracted."
+msgstr ""
+
+msgid "No safe CSV or XLSX file was found inside the ZIP."
+msgstr ""
+
+msgid "The data file inside the ZIP exceeds the allowed size."
+msgstr ""
+
+msgid "The ZIP file could not be safely prepared."
+msgstr ""
+
+msgid "No valid colors were found."
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Unable to open CSV."
+msgstr ""
+
+msgid "Invalid group."
+msgstr ""
+
+msgid "Selected"
+msgstr ""
+
+msgid "Selected color"
+msgstr ""
+
+msgid "Selected colors"
+msgstr ""
+
+msgid "Show Selected"
+msgstr ""
+
+msgid "Search by color name or code…"
+msgstr ""
+
+msgid "All Attributes"
+msgstr ""
+
+msgid "Similar Colors"
+msgstr ""
+
+msgid "Select some colors first."
+msgstr ""
+
+msgid "Print"
+msgstr ""
+
+msgid "Share"
+msgstr ""
+
+msgid "No matching results."
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Selected Colors"
+msgstr ""
+
+msgid "Similar colors to"
+msgstr ""
+
+msgid "Color Wheel"
+msgstr ""
+
+msgid "Color Palette"
+msgstr ""
+
+msgid "Choose a Color"
+msgstr ""
+
+msgid "Find Nearest"
+msgstr ""
+
+msgid "Clear Color"
+msgstr ""
+
+msgid "Nearest Colors"
+msgstr ""
+
+msgid "Choose a color from the wheel to display the nearest colors in the same color family."
+msgstr ""
+
+msgid "No nearby colors were found in this color family."
+msgstr ""
+
+msgid "Copy Color"
+msgstr ""
+
+msgid "Please select a group."
+msgstr ""
+
+msgid "Slug URL"
+msgstr ""
+
+msgid "attribute: any value you choose. attribute_label: optional label for the attribute, such as Surface, Material, or Finish."
+msgstr ""
+
+msgid "HEX"
+msgstr ""
+
+msgid "Shortcode Generator"
+msgstr ""
+
+msgid "Generate a responsive shortcode for one or more color groups."
+msgstr ""
+
+msgid "Select Color Groups"
+msgstr ""
+
+msgid "Desktop Columns"
+msgstr ""
+
+msgid "Tablet Columns"
+msgstr ""
+
+msgid "Mobile Columns"
+msgstr ""
+
+msgid "Generated Shortcode"
+msgstr ""
+
+msgid "Copy Shortcode"
+msgstr ""
+
+msgid "Shortcode copied."
+msgstr ""
+
+msgid "Responsive Columns"
+msgstr ""
+
+msgid "Choose one or more groups. Their colors will appear together in the selected order."
+msgstr ""
+
+msgid "View on Site"
+msgstr ""
+
+msgid "Open Group"
+msgstr ""
+
+msgid "Browse this color collection on the website."
+msgstr ""
+
+msgid "Please select at least one color group."
+msgstr ""
+
+msgid "Show Group Title"
+msgstr ""
+
+msgid "Color Group Page"
+msgstr ""
+
+msgid "Color group page not found."
+msgstr ""
+
+msgid "Group URL"
+msgstr ""
+
+msgid "Sort"
+msgstr ""
+
+msgid "Name A–Z"
+msgstr ""
+
+msgid "Name Z–A"
+msgstr ""
+
+msgid "Code A–Z"
+msgstr ""
+
+msgid "Copy HEX"
+msgstr ""
+
+msgid "Copy RGB"
+msgstr ""
+
+msgid "RGB"
+msgstr ""
+
+msgid "HSL"
+msgstr ""
+
+msgid "Show Color Name"
+msgstr ""
+
+msgid "Show Color Code"
+msgstr ""
+
+msgid "Show HEX"
+msgstr ""
+
+msgid "Show RGB"
+msgstr ""
+
+msgid "Show HSL"
+msgstr ""
+
+msgid "Show Attribute"
+msgstr ""
+
+msgid "Show Sample Image"
+msgstr ""
+
+msgid "Display Options"
+msgstr ""
+
+msgid "Group Display Columns"
+msgstr ""
+
+msgid "Export"
+msgstr ""
+
+msgid "Export CSV"
+msgstr ""
+
+msgid "Export XLSX"
+msgstr ""
+
+msgid "Duplicate"
+msgstr ""
+
+msgid "Duplicate Group"
+msgstr ""
+
+msgid "Group duplicated as a draft."
+msgstr ""
+
+msgid "Preview Import"
+msgstr ""
+
+msgid "Import Preview"
+msgstr ""
+
+msgid "Review the file before importing it."
+msgstr ""
+
+msgid "Valid colors"
+msgstr ""
+
+msgid "Duplicate rows"
+msgstr ""
+
+msgid "Existing codes"
+msgstr ""
+
+msgid "Import Mode"
+msgstr ""
+
+msgid "Replace all existing colors"
+msgstr ""
+
+msgid "Append and skip existing codes"
+msgstr ""
+
+msgid "Append and update existing codes"
+msgstr ""
+
+msgid "Preview"
+msgstr ""
+
+msgid "Confirm Import"
+msgstr ""
+
+msgid "Unable to preview the import."
+msgstr ""
+
+msgid "Please choose a file first."
+msgstr ""
+
+msgid "Show HEX by default"
+msgstr ""
+
+msgid "Set the default responsive columns for this group. Shortcode values override these defaults."
+msgstr ""
+
+msgid "Choose which color information appears on the website for this group."
+msgstr ""
+
+msgid "6. Display, Search, Sort, and Export"
+msgstr ""
+
+msgid "Each group can define its responsive columns and choose which color fields are shown. Website visitors can search and sort colors, and administrators can export a group as CSV or XLSX."
+msgstr ""
+
+msgid "Export a group from the group editor using Export CSV or Export XLSX. The exported columns are compatible with the import template."
+msgstr ""
+
+msgid "Choose Preview Import first. The plugin validates the file and reports valid rows, duplicates, and codes already present in the group before you confirm the import."
+msgstr ""
+
+msgid "Replace all removes the current color list. Append and skip keeps existing codes unchanged. Append and update replaces matching codes and adds new ones."
+msgstr ""
+
+msgid "Click HEX or RGB on a color card to copy the value. RGB and HSL are calculated automatically from HEX."
+msgstr ""
+
+msgid "A group stores default Desktop, Tablet, and Mobile columns. Shortcode attributes desktop, tablet, and mobile override the group defaults when provided."
+msgstr ""
+
+msgid "Search also matches RGB, HSL, and Attribute values."
+msgstr ""
+
+msgid "Sort by name, code, attribute, or HEX."
+msgstr ""
+
+msgid "9. Import Preview and Duplicate Handling"
+msgstr ""
+
+msgid "10. Translation with Polylang"
+msgstr ""
+
+msgid "11. Common Errors"
+msgstr ""
+
+msgid "Collection Listing"
+msgstr ""
+
+msgid "Display your published color groups as a responsive collection list."
+msgstr ""
+
+msgid "Collection Shape"
+msgstr ""
+
+msgid "Rectangle"
+msgstr ""
+
+msgid "Square"
+msgstr ""
+
+msgid "Circle"
+msgstr ""
+
+msgid "Compact"
+msgstr ""
+
+msgid "Choose how each collection card is shaped in the Collection Listing shortcode. Compact uses a dense horizontal card layout."
+msgstr ""
+
+msgid "Collection Options"
+msgstr ""
+
+msgid "Color Display Shape"
+msgstr ""
+
+msgid "Choose the default shape for color cards in this group. The Shortcode can override it."
+msgstr ""
+
+msgid "Group Shortcode Generator"
+msgstr ""
+
+msgid "Generate a shortcode for this group and choose the color shape and responsive columns."
+msgstr ""
+
+msgid "Show Color Count"
+msgstr ""
+
+msgid "Show Description"
+msgstr ""
+
+msgid "Show Featured Image"
+msgstr ""
+
+msgid "Collection Shortcode"
+msgstr ""
+
+msgid "Published"
+msgstr ""
+
+msgid "Draft"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "%s colors"
+msgstr ""
+
+msgid "View Collection"
+msgstr ""
+
+msgid "No published color groups are available."
+msgstr ""
+
+msgid "2.5. Collection Listing"
+msgstr ""
+
+msgid "Use the Collection Listing shortcode to display published color groups. Draft groups are not shown on the public collection listing. Each collection can optionally use its featured image as a cover at the top of the card."
+msgstr ""
+
+msgid "A group can use Rectangle, Square, Circle, or Compact color cards. The group setting is the default; the Shortcode can override it with shape=\"rectangle\", shape=\"square\", shape=\"circle\", or shape=\"compact\"."
+msgstr ""
+
+msgid "Group status follows the standard WordPress Draft/Published workflow. Only published groups are publicly accessible and included in Collection Listing."
+msgstr ""
+
+msgid "The Collection Listing shortcode supports rectangle, square, circle, and compact card shapes."
+msgstr ""
+
+msgid "Group Page"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "Commercial Color Code"
+msgstr ""
+
+msgid "Color Value"
+msgstr ""
+
+msgid "Optional value for the group attribute"
+msgstr ""
+
+msgid "Optional label for the attribute; the first non-empty value is used for the group"
+msgstr ""
+
+msgid "Sample image; can be matched from ZIP"
+msgstr ""
+
+msgid "Image URL / Filename"
+msgstr ""
+
+msgid "Required"
+msgstr ""
+
+msgid "Group defaults"
+msgstr ""
+
+msgid "true"
+msgstr ""
+
+msgid "Show group title."
+msgstr ""
+
+msgid "Show search and color-family search."
+msgstr ""
+
+msgid "Show the group attribute filter when configured."
+msgstr ""
+
+msgid "Show sorting controls."
+msgstr ""
+
+msgid "Show similar colors."
+msgstr ""
+
+msgid "One group code or comma-separated group codes."
+msgstr ""
+
+msgid "Responsive columns. Explicit shortcode values override group settings."
+msgstr ""
+
+msgid "Color card shape: rectangle, square, circle, or compact."
+msgstr ""
+
+msgid "Show color name."
+msgstr ""
+
+msgid "Show color code."
+msgstr ""
+
+msgid "Show and copy HEX."
+msgstr ""
+
+msgid "Show and copy RGB calculated from HEX."
+msgstr ""
+
+msgid "Show HSL calculated from HEX."
+msgstr ""
+
+msgid "Show the group attribute value."
+msgstr ""
+
+msgid "Show the sample image overlay."
+msgstr ""
+
+msgid "The public group page uses the color shape, responsive columns, display options, attribute filter, search, and sorting settings."
+msgstr ""
+
