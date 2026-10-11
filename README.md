@@ -1,14 +1,14 @@
 <div align="center">
-  <img src="assets/banner-772x250.png" alt="Kashida Colors Showcase banner" width="772">
+  <img src="assets/banner-772x250.png" alt="Kashida Color Library banner" width="772">
   <br>
-  <img src="assets/icon-256x256.png" alt="Kashida Colors Showcase icon" width="128">
+  <img src="assets/icon-256x256.png" alt="Kashida Color Library icon" width="128">
 </div>
 
-# Kashida Colors Showcase
+# Kashida Color Library
 
 **Create and display professional color collections with custom attributes, images, responsive layouts, search, filters, similar colors, color tools, and CSV/XLSX/ZIP import.**
 
-Kashida Colors Showcase is a lightweight WordPress plugin for creating, managing, and displaying professional color collections on your website.
+Kashida Color Library is a lightweight WordPress plugin for creating, managing, and displaying professional color collections on your website.
 
 It provides an organized way to create color groups, add color information, upload sample images, define custom attributes, and present collections using responsive display layouts. It is suitable for paint brands, fabrics, interior materials, plastics, wood, ceramics, printing, automotive, cosmetics, product catalogs, and any business that needs a dedicated color guide.
 
@@ -61,28 +61,28 @@ Color groups and color information are stored within your WordPress website. The
 ## Screenshots
 
 ### 1. Overview
-![Kashida Colors Showcase screenshot 0](assets/screenshot-0.png)
+![Kashida Color Library screenshot 0](assets/screenshot-0.png)
 
 ### 2. Color groups
-![Kashida Colors Showcase screenshot 1](assets/screenshot-1.png)
+![Kashida Color Library screenshot 1](assets/screenshot-1.png)
 
 ### 3. Color display
-![Kashida Colors Showcase screenshot 2](assets/screenshot-2.png)
+![Kashida Color Library screenshot 2](assets/screenshot-2.png)
 
 ### 4. Color tools
-![Kashida Colors Showcase screenshot 3](assets/screenshot-3.png)
+![Kashida Color Library screenshot 3](assets/screenshot-3.png)
 
 ### 5. Import and management
-![Kashida Colors Showcase screenshot 4](assets/screenshot-4.png)
+![Kashida Color Library screenshot 4](assets/screenshot-4.png)
 
 ### 6. Display configuration
-![Kashida Colors Showcase screenshot 5](assets/screenshot-5.png)
+![Kashida Color Library screenshot 5](assets/screenshot-5.png)
 
 ### 7. Additional interface
-![Kashida Colors Showcase screenshot 6](assets/screenshot-6.png)
+![Kashida Color Library screenshot 6](assets/screenshot-6.png)
 
 ### 8. Additional interface
-![Kashida Colors Showcase screenshot 7](assets/screenshot-7.png)
+![Kashida Color Library screenshot 7](assets/screenshot-7.png)
 
 ## Installation
 
@@ -131,7 +131,7 @@ Color groups and color information are stored locally within the WordPress websi
 
 ## Contributing
 
-Bug reports and feature requests are welcome. Please use the repository's [Issues](https://github.com/mrwan-bg/kashida-colors-showcase/issues) page and read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting changes.
+Bug reports and feature requests are welcome. Please use the repository's [Issues](https://github.com/mrwan-bg/kashida-color-library/issues) page and read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting changes.
 
 ## Developer
 
