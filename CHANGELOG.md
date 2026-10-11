@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to Kashida Colors Showcase are documented here.
+All notable changes to Kashida Color Library are documented here.
 
 ## [2.6.8] - 2026-10-11
 
