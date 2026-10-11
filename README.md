@@ -12,7 +12,7 @@ Kashida Colors Showcase is a lightweight WordPress plugin for creating, managing
 
 It provides an organized way to create color groups, add color information, upload sample images, define custom attributes, and present collections using responsive display layouts. It is suitable for paint brands, fabrics, interior materials, plastics, wood, ceramics, printing, automotive, cosmetics, product catalogs, and any business that needs a dedicated color guide.
 
-[Download the latest release](https://github.com/mrwan-bg/kashida-colors-showcase/releases) · [Report a bug](https://github.com/mrwan-bg/kashida-colors-showcase/issues) · [Kashida Media Services](https://kashida.ly/)
+[Download the latest release](https://github.com/mrwan-bg/kashida-color-library/releases) · [Report a bug](https://github.com/mrwan-bg/kashida-color-library/issues) · [Kashida Media Services](https://kashida.ly/)
 
 > **Version:** 2.6.8 · **License:** GPL-2.0-or-later
 
