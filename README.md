@@ -86,10 +86,10 @@ Color groups and color information are stored within your WordPress website. The
 
 ## Installation
 
-1. Download the plugin ZIP from the [Releases page](https://github.com/mrwan-bg/kashida-colors-showcase/releases).
+1. Download the plugin ZIP from the [Releases page](https://github.com/mrwan-bg/kashida-color-library/releases).
 2. In WordPress, open **Plugins → Add New Plugin → Upload Plugin**.
 3. Upload the ZIP file and select **Install Now**.
-4. Activate **Kashida Colors Showcase** from **Plugins → Installed Plugins**.
+4. Activate **Kashida Color Library** from **Plugins → Installed Plugins**.
 5. Open **Color Groups** in the WordPress administration menu.
 6. Create a color group and add colors manually or import CSV, XLSX, or ZIP data.
 7. Configure the group, color information, and optional attributes.
