@@ -14,7 +14,7 @@ It provides an organized way to create color groups, add color information, uplo
 
 [Download the latest release](https://github.com/mrwan-bg/kashida-color-library/releases) · [Report a bug](https://github.com/mrwan-bg/kashida-color-library/issues) · [Kashida Media Services](https://kashida.ly/)
 
-> **Version:** 2.6.8 · **License:** GPL-2.0-or-later
+> **Version:** 2.6.11 · **License:** GPL-2.0-or-later
 
 ## Features
 
