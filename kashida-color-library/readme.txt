@@ -4,7 +4,7 @@ Tags: colors, color palette, color swatches, color picker, shortcode
 Requires at least: 5.8
 Tested up to: 7.1
 Requires PHP: 8.0
-Stable tag: 2.6.8
+Stable tag: 2.6.11
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Author URI: https://kashida.ly/
@@ -33,9 +33,7 @@ The plugin does not require a third-party API or external service for its core f
 == Main Shortcode ==
 `[kashida_colors_showcase group="KCS-0001"]` (recommended)
 
-Legacy shortcode `[paint_colors]` remains available for backward compatibility.
-
-The shortcode name is retained for compatibility with earlier versions. The plugin itself is generic and is not limited to paint products.
+Use the namespaced shortcode `[kashida_colors_showcase]` to avoid conflicts with other plugins. The plugin is generic and is not limited to paint products.
 
 == Collection Listing ==
 Use the Collection Listing shortcode to display published Color Groups:
@@ -155,9 +153,7 @@ Group publishing uses the standard WordPress Draft/Published workflow.
 == Translation ==
 English is the default plugin language.
 
-A bundled Arabic translation is included in:
-* `languages/kashida-color-library-ar.po`
-* `languages/kashida-color-library-ar.mo`
+The plugin includes a POT template at `languages/kashida-color-library.pot`. A bundled Arabic PO/MO translation is not included in this release.
 
 The plugin is translation-ready and registers its interface strings with Polylang when Polylang is available.
 
@@ -251,6 +247,12 @@ The plugin performs a one-time migration of existing Color Groups and their meta
 = 2.6.7 =
 * Renamed the plugin to Kashida Color Library to avoid the restricted-term warning in Plugin Check.
 * Retained the circular-card hover controls introduced in version 2.6.6.
+
+= 2.6.11 =
+* Updated release metadata and documentation for version 2.6.11.
+* Clarified the namespaced shortcode documentation and removed inaccurate legacy-shortcode wording.
+* Corrected translation documentation to match the bundled POT catalog; Arabic PO/MO files are not included in this release.
+* Addressed items raised during the WordPress.org plugin review.
 
 = 2.6.8 =
 * Updated the WordPress admin sidebar menu label to Kashida Color Library.
