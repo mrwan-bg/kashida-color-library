@@ -2,7 +2,7 @@
 /*
  * Plugin Name: Kashida Color Library
  * Description: A lightweight WordPress plugin to organize, display, and manage color collections.
- * Version: 2.6.8
+ * Version: 2.6.11
  * Author: Kashida Media Services
  * Author URI: https://kashida.ly/
  * License: GPL-2.0-or-later
@@ -10,7 +10,7 @@
  */
 if (!defined('ABSPATH')) exit;
 
-define('KASHIDA_COLORS_SHOWCASE_VERSION','2.6.8');
+define('KASHIDA_COLORS_SHOWCASE_VERSION','2.6.11');
 define('KASHIDA_COLORS_SHOWCASE_DIR',plugin_dir_path(__FILE__));
 define('KASHIDA_COLORS_SHOWCASE_URL',plugin_dir_url(__FILE__));
 
