@@ -14,7 +14,7 @@ It provides an organized way to create color groups, add color information, uplo
 
 [Download the latest release](https://github.com/mrwan-bg/kashida-color-library/releases) · [Report a bug](https://github.com/mrwan-bg/kashida-color-library/issues) · [Kashida Media Services](https://kashida.ly/)
 
-> **Version:** 2.6.11 · **License:** GPL-2.0-or-later
+> **Version:** 2.6.14 · **License:** GPL-2.0-or-later
 
 ## Features
 
@@ -105,9 +105,11 @@ The plugin does not require a Google Maps API, external database, or third-party
 
 ## Plugin information
 
+The latest GitHub release is **v2.6.14**, which includes Help and Settings page layout improvements, full-width admin content, and refinements to Arabic RTL and English LTR presentation.
+
 | Property | Value |
 |---|---|
-| Version | 2.6.8 |
+| Version | 2.6.14 |
 | Requires WordPress | 5.8 or later |
 | Tested up to | WordPress 7.1 |
 | Requires PHP | 8.0 or later |
@@ -128,6 +130,13 @@ The plugin is designed for WordPress gettext translations and `.po` / `.mo` file
 ## Privacy
 
 Color groups and color information are stored locally within the WordPress website. The plugin does not send color data to Kashida servers and does not require external analytics.
+
+## Latest release: 2.6.14
+
+- Redesigned the Help page to match the Settings page.
+- Expanded Help and Settings to use the available WordPress admin content width.
+- Improved spacing, alignment, responsive behavior, and RTL/LTR presentation.
+- Improved the layout of import templates, tables, and shortcode examples.
 
 ## Contributing
 
