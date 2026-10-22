@@ -4,7 +4,7 @@ Tags: colors, color palette, color swatches, color picker, shortcode
 Requires at least: 5.8
 Tested up to: 7.1
 Requires PHP: 8.0
-Stable tag: 2.6.11
+Stable tag: 2.6.14
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Author URI: https://kashida.ly/
@@ -194,6 +194,13 @@ No. Public Shortcodes and Collection Listing only render published groups.
 The plugin performs a one-time migration of existing Color Groups and their metadata to uniquely prefixed identifiers. Existing groups, color data, and public URLs are intended to be retained. Back up the database before updating.
 
 == Changelog ==
+
+= 2.6.14 =
+* Redesigned the Help page to match the Settings page layout.
+* Expanded Help and Settings to use the available WordPress admin content width.
+* Improved spacing, alignment, responsive behavior, and RTL/LTR presentation.
+* Improved the layout of import templates, tables, and shortcode examples.
+
 
 = 2.6.4 =
 * Renamed the plugin to Kashida Color Library to avoid the restricted-term warning in Plugin Check.
