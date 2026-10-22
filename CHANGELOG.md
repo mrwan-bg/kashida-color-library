@@ -2,6 +2,14 @@
 
 All notable changes to Kashida Color Library are documented here.
 
+## [2.6.14] - 2026-10-22
+
+- Redesigned the Help page to match the Settings page layout.
+- Expanded Help and Settings pages to use the available WordPress admin content width.
+- Improved alignment, spacing, and responsive behavior.
+- Refined RTL and LTR layout support for Arabic and English.
+- Improved presentation of import templates, tables, and shortcode examples.
+
 ## [2.6.11] - 2026-10-12
 
 - Updated the repository's plugin version metadata to 2.6.11; the full source/assets package still requires synchronization with the final release ZIP.
