@@ -114,29 +114,24 @@ The legacy `[paint_colors]` shortcode may remain available in existing installat
 
 ## Screenshots
 
-### 1. Overview
-![Kashida Color Library screenshot 0](assets/screenshot-0.png)
-
-### 2. Color groups
-![Kashida Color Library screenshot 1](assets/screenshot-1.png)
-
-### 3. Color display
-![Kashida Color Library screenshot 2](assets/screenshot-2.png)
-
-### 4. Color tools
-![Kashida Color Library screenshot 3](assets/screenshot-3.png)
-
-### 5. Import and management
-![Kashida Color Library screenshot 4](assets/screenshot-4.png)
-
-### 6. Display configuration
-![Kashida Color Library screenshot 5](assets/screenshot-5.png)
-
-### 7. Additional interface
-![Kashida Color Library screenshot 6](assets/screenshot-6.png)
-
-### 8. Additional interface
-![Kashida Color Library screenshot 7](assets/screenshot-7.png)
+<table>
+  <tr>
+    <td align="center" width="50%"><strong>1. Overview</strong><br><img src="assets/screenshot-0.png" alt="Kashida Color Library overview" width="100%"></td>
+    <td align="center" width="50%"><strong>2. Color groups</strong><br><img src="assets/screenshot-1.png" alt="Color groups management" width="100%"></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><strong>3. Color display</strong><br><img src="assets/screenshot-2.png" alt="Color display styles" width="100%"></td>
+    <td align="center" width="50%"><strong>4. Color tools</strong><br><img src="assets/screenshot-3.png" alt="Color discovery and tools" width="100%"></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><strong>5. Import and management</strong><br><img src="assets/screenshot-4.png" alt="Import and color management" width="100%"></td>
+    <td align="center" width="50%"><strong>6. Display configuration</strong><br><img src="assets/screenshot-5.png" alt="Responsive display configuration" width="100%"></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><strong>7. Additional interface</strong><br><img src="assets/screenshot-6.png" alt="Additional plugin interface" width="100%"></td>
+    <td align="center" width="50%"><strong>8. Additional interface</strong><br><img src="assets/screenshot-7.png" alt="Additional plugin interface" width="100%"></td>
+  </tr>
+</table>
 
 ## Installation
 
@@ -204,3 +199,45 @@ Bug reports and feature requests are welcome. Please use the repository's [Issue
 ## License
 
 This project is distributed under the **GNU General Public License v2.0 or later**. See [LICENSE](LICENSE).
+
+
+---
+
+# الوصف باللغة العربية
+
+## مكتبة الألوان من كشيدة – Kashida Color Library
+
+إضافة WordPress مستقلة لإدارة كتالوجات ومجموعات الألوان وعرضها بطريقة احترافية ومتجاوبة. تتيح الإضافة إنشاء مجموعات ألوان، وإضافة أسماء الألوان وأكوادها التجارية وقيم HEX، وتحديد خصائص مخصصة لكل مجموعة، ثم عرضها على الموقع باستخدام أنماط متعددة وأدوات بحث وتصفية.
+
+تُعد الإضافة مناسبة لشركات الدهانات، والأقمشة، والديكور، والمواد الداخلية، والبلاستيك، والخشب، والسيراميك، والطباعة، وقطاعات المنتجات التي تحتاج إلى دليل ألوان منظم.
+
+## المميزات الرئيسية
+
+- **إدارة مجموعات الألوان:** إنشاء مجموعات مستقلة برمز تعريفي وعنوان ووصف وصورة مميزة.
+- **إدارة بيانات الألوان:** إضافة اسم اللون والكود التجاري وقيمة HEX وصورة عينة اختيارية.
+- **خصائص مخصصة:** تحديد تسمية وقيم خاصة بكل مجموعة، مثل نوع التشطيب أو الخامة أو الملمس أو الفئة.
+- **أنماط عرض متجاوبة:** أربعة أنماط هي المستطيل والمربع والدائرة والعرض المختصر، مع التحكم في عدد الأعمدة لأجهزة الكمبيوتر والأجهزة اللوحية والهواتف.
+- **البحث والتصفية:** البحث بالاسم أو الكود أو قيم HEX وRGB وHSL، مع التصفية حسب الخصائص والترتيب وفق معايير متعددة.
+- **أدوات الألوان:** استكشاف الألوان المتقاربة والمتشابهة باستخدام عجلة الألوان، ونسخ معلومات الألوان وتحديدها وطباعتها ومشاركتها.
+- **الاستيراد والتصدير:** استيراد بيانات الألوان من CSV وXLSX وZIP، وتصديرها بصيغ CSV وXLSX.
+- **منشئ الأكواد المختصرة:** إعداد طريقة عرض مجموعات الألوان وخياراتها دون الحاجة إلى كتابة الأكواد يدوياً.
+
+## التكامل مع محاكي الدهانات
+
+توفر الإضافة واجهة REST API عامة للقراءة فقط، تتيح للإضافات المتوافقة مثل **Kashida Paint Visualizer** قراءة مجموعات الألوان المنشورة والمفعّلة واستخدام ألوانها داخل المحاكي.
+
+يظل كل من معرض الألوان ومحاكي الدهانات إضافة مستقلة؛ ويمكن تشغيل مكتبة الألوان دون المحاكي، كما يستطيع المحاكي العمل بلوحة ألوانه الافتراضية عند عدم توفر مكتبة الألوان. ويقتصر التكامل على بيانات المجموعة والألوان المخصصة للنشر، ولا يتيح صور العينات أو المعرّفات الداخلية للمرفقات أو البيانات الإدارية.
+
+## الاستقلالية والخصوصية
+
+تُدار بيانات كتالوج الألوان داخل موقع WordPress، ولا تتطلب الإضافة خدمات خارجية أو أدوات تتبع أو تحليلات. وتقتصر واجهة التكامل على الحقول العامة الموثقة، ولا ترسل بيانات الكتالوج إلى خوادم كشيدة.
+
+## المتطلبات
+
+- WordPress 5.8 أو أحدث.
+- PHP 8.0 أو أحدث.
+
+**المطور:** Kashida Media Services  
+**Developer:** Mrwan elGobee  
+**الموقع:** [kashida.ly](https://kashida.ly/)  
+**الترخيص:** GPL-2.0-or-later
