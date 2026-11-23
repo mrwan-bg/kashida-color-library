@@ -2,6 +2,25 @@
 
 All notable changes to Kashida Color Library are documented here.
 
+## [2.7.0] - 2026-11-23
+
+### Added
+- Added public, read-only REST API endpoints for compatible integrations, including Kashida Paint Visualizer.
+- Added a group-list endpoint that returns published and enabled color groups in alphabetical title order.
+- Added a group-colors endpoint with pagination and search by color name, commercial code, and HEX value.
+- Added normalized API output containing only color name, code, HEX, and custom attribute fields.
+
+### Improved
+- Preserved the original color order in API responses.
+- Normalized valid HEX values and excluded rows with invalid HEX values from API responses.
+- Restricted API visibility to published, enabled groups.
+- Kept sample-image URLs, attachment IDs, and administrative metadata out of API responses.
+- Kept the integration API optional; the Color Library remains fully usable as a standalone plugin.
+
+### Compatibility
+- The API uses GET-only routes and does not provide catalog write operations.
+- The group-colors endpoint defaults to 100 colors per page and supports up to 200 per page.
+
 ## [2.6.14] - 2026-10-22
 
 - Redesigned the Help page to match the Settings page layout.
@@ -12,12 +31,10 @@ All notable changes to Kashida Color Library are documented here.
 
 ## [2.6.11] - 2026-10-12
 
-- Updated the repository's plugin version metadata to 2.6.11; the full source/assets package still requires synchronization with the final release ZIP.
-- Updated plugin and readme version metadata to 2.6.11.
+- Corrected translation documentation and clarified the primary shortcode.
+- Updated plugin and readme version metadata.
 - Updated the WordPress.org readme changelog for the release.
-- Corrected documentation to reflect the bundled POT catalog and avoid claiming Arabic PO/MO files are included.
-- Clarified the namespaced shortcode documentation and removed stale wording about legacy shortcode support.
-- Updated the release changelog and preserved repository development assets.
+- Preserved repository development assets.
 
 ## [2.6.8] - 2026-10-11
 
