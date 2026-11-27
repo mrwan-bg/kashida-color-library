@@ -146,8 +146,8 @@ The legacy `[paint_colors]` shortcode may remain available in existing installat
 
 ## Requirements
 
-- WordPress 5.8 or later
-- PHP 8.0 or later
+- WordPress 5.8 or later (tested with 7.2)
+- PHP 8.0 or later (tested with PHP 8.6)
 
 The core plugin does not require an external API, database, or third-party service. The REST API introduced in 2.7.0 is an optional read-only interface for integrations.
 
@@ -157,7 +157,7 @@ The core plugin does not require an external API, database, or third-party servi
 |---|---|
 | Current version | 2.7.0 |
 | Requires WordPress | 5.8 or later |
-| Tested up to | WordPress 7.1 |
+| Tested up to | WordPress 7.2 |
 | Requires PHP | 8.0 or later |
 | License | GPL-2.0-or-later |
 | Text domain | `kashida-color-library` |
