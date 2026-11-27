@@ -2,7 +2,7 @@
 Contributors: mrwanbg
 Tags: colors, color palette, color swatches, color picker, shortcode
 Requires at least: 5.8
-Tested up to: 7.1
+Tested up to: 7.2
 Requires PHP: 8.0
 Stable tag: 2.6.14
 License: GPLv2 or later
@@ -196,6 +196,7 @@ The plugin performs a one-time migration of existing Color Groups and their meta
 == Changelog ==
 
 = 2.6.14 =
+* Updated compatibility metadata for WordPress 7.2 and PHP 8.6 following compatibility verification.
 * Redesigned the Help page to match the Settings page layout.
 * Expanded Help and Settings to use the available WordPress admin content width.
 * Improved spacing, alignment, responsive behavior, and RTL/LTR presentation.
