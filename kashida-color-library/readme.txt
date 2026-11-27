@@ -196,6 +196,7 @@ The plugin performs a one-time migration of existing Color Groups and their meta
 == Changelog ==
 
 = 2.6.14 =
+* Verified compatibility with WordPress 7.2 and PHP 8.6. No plugin functionality changes in this compatibility update.
 * Updated compatibility metadata for WordPress 7.2 and PHP 8.6 following compatibility verification.
 * Redesigned the Help page to match the Settings page layout.
 * Expanded Help and Settings to use the available WordPress admin content width.
